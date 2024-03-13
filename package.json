@@ -1,0 +1,14 @@
+{
+    "name": "javascript_activity",
+    "version": "1.0.0",
+    "description": "JobTarget Bootcamp",
+    "main": "script.js",
+    "scripts": {
+        "start": "lite-server"
+    },
+    "author": "Jordan Victor Mayor",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "2.6.1"
+    }
+}

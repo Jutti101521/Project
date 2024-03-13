@@ -1,0 +1,98 @@
+body {
+    font-family: "Calibri", sans-serif;
+}
+
+
+/* data-input styles */
+
+.data-input {
+    display: flex;
+    justify-content: center;
+    background-color:#F8F8F8;
+    width: 300px; /* Set the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add a border for the box */
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.form-input input {
+    width: 300px; /* Adjust the width as needed */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.form-group-btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    margin-bottom: 5px; /* Adjust as needed for spacing between label and input */
+}
+
+
+/* Add Button */
+
+.btnAdd {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    margin-top: 10px;
+    padding: 10px 20px; /* Set button padding */
+    font-size: 15px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add button border radius for rounded corners */
+}
+
+
+/* Table */
+
+.container-appointments {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white
+}
+
+.pending-cell {
+    background-color: #CD5C5C;
+}
+
+/* Remove buttons */
+
+.remove-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #CD5C5C;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
